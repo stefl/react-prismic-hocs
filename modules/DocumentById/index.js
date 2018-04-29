@@ -8,7 +8,8 @@ type Props = {
   id: string,
   apiOptions: APIOptions,
   queryKey: string,
-  children: any
+  children: any,
+  queryOptions: any
 }
 
 
@@ -22,7 +23,8 @@ export default class DocumentById extends React.Component {
 
   static defaultProps = {
     queryKey: '',
-    apiOptions: {}
+    apiOptions: {},
+    queryOptions: {}
   }
   constructor(props: Props) {
     super(props)
@@ -36,7 +38,7 @@ export default class DocumentById extends React.Component {
 
   componentDidMount = () => {
     const _this = this
-    queryById({ url: this.props.url, apiOptions: this.props.apiOptions, id: this.props.id })
+    queryById({ url: this.props.url, apiOptions: this.props.apiOptions, id: this.props.id, additionalOPtions: this.props.queryOptions })
     .then( (response: any) => {
       _this.setState({ loading: false, prismic: response })
     })
