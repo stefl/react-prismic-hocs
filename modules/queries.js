@@ -24,7 +24,7 @@ const query = ({ url, apiOptions={}, query = false, predicates='', predicateOpti
     })
 }
 
-const queryById = ({ url, apiOptions={}, id }: { url: string, apiOptions: APIOptions, id: string}) => {
+const queryById = ({ url, apiOptions={}, id, predicateOptions={}, additionalOptions={} }: { url: string, apiOptions: APIOptions, id: string, additionalOptions: QueryParams}) => {
   invariant(
     url,
     'No url prop passed. Make sure you pass in an api url ' +
@@ -36,10 +36,10 @@ const queryById = ({ url, apiOptions={}, id }: { url: string, apiOptions: APIOpt
     'id via the "id" prop.'
   )   
   return Prismic.api(url, apiOptions)
-    .then( (api: any) => api.getByID(id))
+    .then( (api: any) => api.getByID(id, additionalOptions))
 }
 
-const queryByUid = ({ url, apiOptions={}, uid, type }: { url: string, apiOptions: APIOptions, uid: string, type: string }) => {
+const queryByUid = ({ url, apiOptions={}, uid, type, additionalOptions={} }: { url: string, apiOptions: APIOptions, uid: string, type: string, additionalOptions: QueryParams}) => {
   invariant(
     url,
     'No url prop passed. Make sure you pass in an api url ' +
@@ -56,6 +56,6 @@ const queryByUid = ({ url, apiOptions={}, uid, type }: { url: string, apiOptions
     'type via the "type" prop.'
   )  
   return Prismic.api(url, apiOptions)
-    .then( (api: any) => api.getByUID(type, uid))
+    .then( (api: any) => api.getByUID(type, uid, additionalOptions))
 }
 export { query, queryById, queryByUid }
