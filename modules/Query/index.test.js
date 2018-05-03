@@ -2,7 +2,7 @@ import React from 'react'
 import Query from './'
 import renderer from 'react-test-renderer'
 import { XMLHttpRequest } from 'xmlhttprequest'
-import { Predicates } from 'prismic.io'
+import { Predicates } from 'prismic-javascript'
 import Receiver from '../test/receiver'
 
 const predicates =  [ Predicates.any('document.type', [ 'article' ]) ]

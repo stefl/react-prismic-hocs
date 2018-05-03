@@ -1,7 +1,7 @@
 //@flow
 import React from 'react'
 import { query } from '../queries'
-import type { APIOptions } from 'prismic.io'
+import type { APIOptions } from 'prismic-javascript'
 
 type Props = {
   url: string,

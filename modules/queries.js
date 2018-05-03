@@ -1,8 +1,8 @@
 //@flow
 
-import Prismic from 'prismic.io'
+import Prismic from 'prismic-javascript'
 import invariant from 'invariant'
-import type { APIOptions } from 'prismic.io'
+import type { APIOptions } from 'prismic-javascript'
 
 //$FlowFixMe https://github.com/facebook/flow/issues/183
 const query = ({ url, apiOptions={}, query = false, predicates='', predicateOptions={} }: QueryParams) => {

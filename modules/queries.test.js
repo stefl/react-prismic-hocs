@@ -1,5 +1,5 @@
 import { query, queryById, queryByUid } from './queries'
-import { Predicates } from 'prismic.io'
+import { Predicates } from 'prismic-javascript'
 
 const predicates =  [ Predicates.any('document.type', [ 'article', 'event' ]) ]
 const options = { 
@@ -7,7 +7,7 @@ const options = {
 }
 
 
-const url = 'https://lesbonneschoses-ve9ubyaaaciapezy.prismic.io/api'
+const url = 'https://lesbonneschoses-ve9ubyaaaciapezy.prismic.io/api/v2'
 
 
 describe('Query', () => {

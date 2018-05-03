@@ -2,7 +2,7 @@ import React from 'react'
 import DocumentByUid from './'
 import renderer from 'react-test-renderer'
 import { XMLHttpRequest } from 'xmlhttprequest'
-import { Predicates } from 'prismic.io'
+import { Predicates } from 'prismic-javascript'
 import Receiver from '../test/receiver'
 
 
