@@ -6,7 +6,7 @@ import Receiver from '../test/receiver'
 
 window.XMLHttpRequest = XMLHttpRequest
 
-const url = 'https://lesbonneschoses-ve9ubyaaaciapezy.prismic.io/api'
+const url = 'https://lesbonneschoses-ve9ubyaaaciapezy.prismic.io/api/v2'
 const uid = 'about-us' 
 const type = 'article'
 

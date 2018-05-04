@@ -53,7 +53,7 @@ import { withQuery } from 'react-prismic-hocs'
 const Articles = (props) => ... // your component
 
 export default withQuery({
-  url: 'https://yourapiurl.prismic.io/api',
+  url: 'https://yourapiurl.prismic.io/api/v2',
   query: [
     [ Predicates.any('document.type', [ 'article' ]) ],
     { pageSize: '5'}
@@ -62,13 +62,13 @@ export default withQuery({
 
 
 export default withQuery({
-  url: 'https://yourapiurl.prismic.io/api',
+  url: 'https://yourapiurl.prismic.io/api/v2',
   predicates: [ Predicates.any('document.type', [ 'article' ]) ],
 })(Articles)
 
 
 export default withQuery({
-  url: 'https://yourapiurl.prismic.io/api',
+  url: 'https://yourapiurl.prismic.io/api/v2',
   predicates: [ Predicates.any('document.type', [ 'article' ]) ],
   predicateOptions: { pageSize: '5'}
 })(Articles)
@@ -93,7 +93,7 @@ import { withDocumentById} from 'react-prismic-hocs'
 const Article = (props) => ... // your component
 
 export default withDocumentById({
-  url: 'https://yourapiurl.prismic.io/api',
+  url: 'https://yourapiurl.prismic.io/api/v2',
   id: 'vkadf183wvsdfh'
 })(Article)
 ```
@@ -118,7 +118,7 @@ import { withDocumentById} from 'react-prismic-hocs'
 const Page = (props) => ... // your component
 
 export default withDocumentByUid({
-  url: 'https://yourapiurl.prismic.io/api',
+  url: 'https://yourapiurl.prismic.io/api/v2',
   uid: 'about-us'
   type: 'page'
 })(Page)
@@ -151,7 +151,7 @@ Pass the prismic of a Prismic query to your child function.
 import { Query } from 'react-prismic-hocs'
 
 <Query
-  url={'https://yourapiurl.prismic.io/api'}
+  url={'https://yourapiurl.prismic.io/api/v2'}
   query={[
     [ Predicates.any('document.type', [ 'article' ]) ],
     { pageSize: '5'}
@@ -186,7 +186,7 @@ import { DocumentById} from 'react-prismic-hocs'
 
 
 <DocumentById
-  url={'https://yourapiurl.prismic.io/api'}
+  url={'https://yourapiurl.prismic.io/api/v2'}
   id={'vkadf183wvsdfh'}
 >
   {({loading, prismic, error}) => (
@@ -218,7 +218,7 @@ import { DocumentById} from 'react-prismic-hocs'
 
 
 <DocumentById
-  url={'https://yourapiurl.prismic.io/api'}
+  url={'https://yourapiurl.prismic.io/api/v2'}
   uid={'about-us'}
   type={'page'}
   queryKey={'page'}
@@ -242,7 +242,7 @@ import { DocumentById} from 'react-prismic-hocs'
 
 <DocumentById
   key={props.match.params.uid} //whenever this changes the component is refetched
-  url={'https://yourapiurl.prismic.io/api'}
+  url={'https://yourapiurl.prismic.io/api/v2'}
   key={props.match.params.uid}
   type={'page'}
   queryKey={'page'}
