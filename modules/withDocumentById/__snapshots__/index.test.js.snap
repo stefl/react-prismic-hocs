@@ -10,127 +10,83 @@ exports[`The query component When passed url 2`] = `
 Object {
   "alternate_languages": Array [],
   "data": Object {
-    "store": Object {
-      "address": Object {
-        "type": "Text",
-        "value": "2-29-1 Dougenzaka",
+    "address": "2-29-1 Dougenzaka",
+    "address2": "Shibuya-ku",
+    "city": "Tokyo",
+    "country": "Japan",
+    "description": Array [
+      Object {
+        "spans": Array [],
+        "text": "Your traditional pastries on the go, in the beating heart of the rising sun's city life.",
+        "type": "paragraph",
       },
-      "address2": Object {
-        "type": "Text",
-        "value": "Shibuya-ku",
+    ],
+    "friday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "image": Object {
+      "Icon": Object {
+        "alt": null,
+        "copyright": null,
+        "dimensions": Object {
+          "height": 250,
+          "width": 250,
+        },
+        "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/bb48218082621ed3d46e58764fce1750c61b4045.jpg",
       },
-      "city": Object {
-        "type": "Text",
-        "value": "Tokyo",
+      "Medium": Object {
+        "alt": null,
+        "copyright": null,
+        "dimensions": Object {
+          "height": 250,
+          "width": 800,
+        },
+        "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/c10fcfc9a884e32ecbb3e7dbc9f7cf6157b28069.jpg",
       },
-      "country": Object {
-        "type": "Select",
-        "value": "Japan",
+      "alt": null,
+      "copyright": null,
+      "dimensions": Object {
+        "height": 500,
+        "width": 1500,
       },
-      "description": Object {
-        "type": "StructuredText",
-        "value": Array [
-          Object {
-            "spans": Array [],
-            "text": "Your traditional pastries on the go, in the beating heart of the rising sun's city life.",
-            "type": "paragraph",
-          },
-        ],
-      },
-      "friday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "image": Object {
-        "type": "Image",
-        "value": Object {
-          "main": Object {
-            "alt": null,
-            "copyright": null,
-            "dimensions": Object {
-              "height": 500,
-              "width": 1500,
-            },
-            "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/babc76721887f8e623061f9e80c43edb1d6e2d40.jpg",
-          },
-          "views": Object {
-            "icon": Object {
-              "alt": null,
-              "copyright": null,
-              "dimensions": Object {
-                "height": 250,
-                "width": 250,
-              },
-              "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/bb48218082621ed3d46e58764fce1750c61b4045.jpg",
-            },
-            "medium": Object {
-              "alt": null,
-              "copyright": null,
-              "dimensions": Object {
-                "height": 250,
-                "width": 800,
-              },
-              "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/c10fcfc9a884e32ecbb3e7dbc9f7cf6157b28069.jpg",
-            },
-          },
-        },
-      },
-      "monday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "name": Object {
-        "type": "StructuredText",
-        "value": Array [
-          Object {
-            "spans": Array [],
-            "text": "Tokyo Roppongi Hills",
-            "type": "heading1",
-          },
-        ],
-      },
-      "saturday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "sunday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "thursday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "tuesday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "wednesday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "zipcode": Object {
-        "type": "Text",
-        "value": "150-0043",
-      },
+      "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/babc76721887f8e623061f9e80c43edb1d6e2d40.jpg",
     },
+    "monday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "name": Array [
+      Object {
+        "spans": Array [],
+        "text": "Tokyo Roppongi Hills",
+        "type": "heading1",
+      },
+    ],
+    "saturday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "sunday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "thursday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "tuesday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "wednesday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "zipcode": "150-0043",
   },
   "first_publication_date": null,
-  "href": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/api/v1/documents/search?ref=WHzuVR8AAL5VPhhf&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22UlfoxUnM0wkXYXbU%22%29+%5D%5D",
+  "href": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/api/v2/documents/search?ref=WHzuVR8AAL5VPhhf&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22UlfoxUnM0wkXYXbU%22%29+%5D%5D",
   "id": "UlfoxUnM0wkXYXbU",
   "lang": "en-us",
   "last_publication_date": null,
@@ -148,127 +104,83 @@ exports[`The query component When passed url and query key 1`] = `
 Object {
   "alternate_languages": Array [],
   "data": Object {
-    "store": Object {
-      "address": Object {
-        "type": "Text",
-        "value": "2-29-1 Dougenzaka",
+    "address": "2-29-1 Dougenzaka",
+    "address2": "Shibuya-ku",
+    "city": "Tokyo",
+    "country": "Japan",
+    "description": Array [
+      Object {
+        "spans": Array [],
+        "text": "Your traditional pastries on the go, in the beating heart of the rising sun's city life.",
+        "type": "paragraph",
       },
-      "address2": Object {
-        "type": "Text",
-        "value": "Shibuya-ku",
+    ],
+    "friday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "image": Object {
+      "Icon": Object {
+        "alt": null,
+        "copyright": null,
+        "dimensions": Object {
+          "height": 250,
+          "width": 250,
+        },
+        "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/bb48218082621ed3d46e58764fce1750c61b4045.jpg",
       },
-      "city": Object {
-        "type": "Text",
-        "value": "Tokyo",
+      "Medium": Object {
+        "alt": null,
+        "copyright": null,
+        "dimensions": Object {
+          "height": 250,
+          "width": 800,
+        },
+        "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/c10fcfc9a884e32ecbb3e7dbc9f7cf6157b28069.jpg",
       },
-      "country": Object {
-        "type": "Select",
-        "value": "Japan",
+      "alt": null,
+      "copyright": null,
+      "dimensions": Object {
+        "height": 500,
+        "width": 1500,
       },
-      "description": Object {
-        "type": "StructuredText",
-        "value": Array [
-          Object {
-            "spans": Array [],
-            "text": "Your traditional pastries on the go, in the beating heart of the rising sun's city life.",
-            "type": "paragraph",
-          },
-        ],
-      },
-      "friday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "image": Object {
-        "type": "Image",
-        "value": Object {
-          "main": Object {
-            "alt": null,
-            "copyright": null,
-            "dimensions": Object {
-              "height": 500,
-              "width": 1500,
-            },
-            "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/babc76721887f8e623061f9e80c43edb1d6e2d40.jpg",
-          },
-          "views": Object {
-            "icon": Object {
-              "alt": null,
-              "copyright": null,
-              "dimensions": Object {
-                "height": 250,
-                "width": 250,
-              },
-              "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/bb48218082621ed3d46e58764fce1750c61b4045.jpg",
-            },
-            "medium": Object {
-              "alt": null,
-              "copyright": null,
-              "dimensions": Object {
-                "height": 250,
-                "width": 800,
-              },
-              "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/c10fcfc9a884e32ecbb3e7dbc9f7cf6157b28069.jpg",
-            },
-          },
-        },
-      },
-      "monday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "name": Object {
-        "type": "StructuredText",
-        "value": Array [
-          Object {
-            "spans": Array [],
-            "text": "Tokyo Roppongi Hills",
-            "type": "heading1",
-          },
-        ],
-      },
-      "saturday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "sunday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "thursday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "tuesday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "wednesday": Array [
-        Object {
-          "type": "Text",
-          "value": "9am - 10pm",
-        },
-      ],
-      "zipcode": Object {
-        "type": "Text",
-        "value": "150-0043",
-      },
+      "url": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/lesbonneschoses/babc76721887f8e623061f9e80c43edb1d6e2d40.jpg",
     },
+    "monday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "name": Array [
+      Object {
+        "spans": Array [],
+        "text": "Tokyo Roppongi Hills",
+        "type": "heading1",
+      },
+    ],
+    "saturday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "sunday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "thursday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "tuesday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "wednesday": Array [
+      "9am - 10pm",
+      null,
+    ],
+    "zipcode": "150-0043",
   },
   "first_publication_date": null,
-  "href": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/api/v1/documents/search?ref=WHzuVR8AAL5VPhhf&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22UlfoxUnM0wkXYXbU%22%29+%5D%5D",
+  "href": "https://lesbonneschoses-ve9ubyaaaciapezy.cdn.prismic.io/api/v2/documents/search?ref=WHzuVR8AAL5VPhhf&q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22UlfoxUnM0wkXYXbU%22%29+%5D%5D",
   "id": "UlfoxUnM0wkXYXbU",
   "lang": "en-us",
   "last_publication_date": null,
